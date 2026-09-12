@@ -1,0 +1,103 @@
+import random
+import numpy as np
+import math
+import matplotlib.pyplot as plt
+
+from scipy.stats import skellam
+from scipy.special import factorial 
+
+def probabilida_teorico_a(lambda_b, lambda_l, p_b, p_l):
+    mu_1 = lambda_b * 45 * p_b
+    mu_2 = lambda_l * 45 * p_l
+    return skellam.pmf(2, mu_1, mu_2)
+
+def probabilidad_teorico_b(lambda_b, lambda_l, p_b, p_l):
+    lambda1 = lambda_b * 60 * p_b
+    lambda2 = lambda_l * 60 * p_l
+    num_terms = 100
+
+    suma = 0.0
+    term = 1.0  # Primer término de la serie
+    for k in range(num_terms):
+        suma += term
+        term *= (lambda1 * lambda2) / ((k + 1)**2)
+    
+    return np.exp(-lambda1) * np.exp(-lambda2) * suma
+
+def probabilidad_teorico_c(lambda_b, lambda_l, p_b, p_l):
+    lambda1 = lambda_b * 90 * p_b
+    lambda2 = lambda_l * 90 * p_l
+    return np.exp(-lambda1) * (1 - np.exp(-lambda2))
+
+def simulacion(lambda_b=0.1, lambda_l=0.15, p_b=0.35, p_l=0.2, inversion=10_000, n_simulaciones=1_000_000):
+    # Parámetros comunes
+    semilla = 2123
+    np.random.seed(semilla)
+
+    # Tasa de goles por 45 minutos
+    mu_1_a = lambda_b * 45 * p_b
+    mu_2_a = lambda_l * 45 * p_l
+
+    # Simulación para (a): VARcelona ganando por exactamente dos goles al finalizar el primer tiempo
+    X1_a = np.random.poisson(mu_1_a, n_simulaciones)
+    X2_a = np.random.poisson(mu_2_a, n_simulaciones)
+    eventos_a = (X1_a - X2_a == 2)
+    cantidad_eventos_a = np.sum(eventos_a)
+    probabilidad_a = cantidad_eventos_a / n_simulaciones
+    prob_teorica_a = probabilida_teorico_a(lambda_b, lambda_l, p_b, p_l)
+    error_relativo_a = abs(probabilidad_a - prob_teorica_a) / prob_teorica_a
+    ganancia_a = inversion * 6 if cantidad_eventos_a > 0 else 0
+
+    # Simulación para (b): Empate al finalizar el partido si no había goles anotados al minuto 60
+    lambda1_b = lambda_b * 60 * p_b
+    lambda2_b = lambda_l * 60 * p_l
+    X1_b = np.random.poisson(lambda1_b, n_simulaciones)
+    X2_b = np.random.poisson(lambda2_b, n_simulaciones)
+    eventos_b = (X1_b == X2_b)
+    cantidad_eventos_b = np.sum(eventos_b)
+    probabilidad_b = cantidad_eventos_b / n_simulaciones
+    prob_teorica_b = probabilidad_teorico_b(lambda_b, lambda_l, p_b, p_l)
+    error_relativo_b = abs(probabilidad_b - prob_teorica_b) / prob_teorica_b
+    ganancia_b = inversion * 2 if cantidad_eventos_b > 0 else 0
+
+    # Simulación para (c): LiVARpool gana sin recibir goles
+    lambda1_c = lambda_b * 90 * p_b
+    lambda2_c = lambda_l * 90 * p_l
+    X1_c = np.random.poisson(lambda1_c, n_simulaciones)
+    X2_c = np.random.poisson(lambda2_c, n_simulaciones)
+    eventos_c = (X1_c == 0) & (X2_c > 0)
+    cantidad_eventos_c = np.sum(eventos_c)
+    probabilidad_c = cantidad_eventos_c / n_simulaciones
+    prob_teorica_c = probabilidad_teorico_c(lambda_b, lambda_l, p_b, p_l)
+    error_relativo_c = abs(probabilidad_c - prob_teorica_c) / prob_teorica_c
+    ganancia_c = inversion * 5 if cantidad_eventos_c > 0 else 0
+
+    # Imprimir resultados
+    print(f"Resultados de la simulación con {n_simulaciones} simulaciones y una inversión de ${inversion}:")
+    
+    print(f"\n(a) VARcelona ganando por exactamente dos goles al finalizar el primer tiempo:")
+    print(f"    Cantidad de partidos: {cantidad_eventos_a}")
+    print(f"    Probabilidad empírica: {probabilidad_a:.6f} vs Probabilidad teórica: {prob_teorica_a:.6f}")
+    print(f"    Error relativo: {error_relativo_a:.6f}")
+    print(f"    Pago: $6 por cada $1 invertido")
+    print(f"    Inversión: ${inversion}")
+    print(f"    Ganancia esperada: ${ganancia_a}, con una probabilidad empírica de {probabilidad_a:.6f} de obtenerla.")
+
+    print(f"\n(b) Empate al finalizar el partido si no había goles anotados al minuto 60:")
+    print(f"    Cantidad de partidos: {cantidad_eventos_b}")
+    print(f"    Probabilidad empírica: {probabilidad_b:.6f} vs Probabilidad teórica: {prob_teorica_b:.6f}")
+    print(f"    Error relativo: {error_relativo_b:.6f}")
+    print(f"    Pago: $2 por cada $1 invertido")
+    print(f"    Inversión: ${inversion}")
+    print(f"    Ganancia esperada: ${ganancia_b}, con una probabilidad empírica de {probabilidad_b:.6f} de obtenerla.")
+
+    print(f"\n(c) LiVARpool gana sin recibir goles:")
+    print(f"    Cantidad de partidos: {cantidad_eventos_c}")
+    print(f"    Probabilidad empírica: {probabilidad_c:.6f} vs Probabilidad teórica: {prob_teorica_c:.6f}")
+    print(f"    Error relativo: {error_relativo_c:.6f}")
+    print(f"    Pago: $5 por cada $1 invertido")
+    print(f"    Inversión: ${inversion}")
+    print(f"    Ganancia esperada: ${ganancia_c}, con una probabilidad empírica de {probabilidad_c:.6f} de obtenerla.")
+
+# Llamar a la función de simulación con los parámetros iniciales
+simulacion()

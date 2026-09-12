@@ -1,0 +1,5 @@
+Almendro de la Aurora: {Alovelis; {Alovelis; {Celery; {Paalm; Hyedrid; Paalm; Alovelis; Pine}; {Pine; Cactoos; Cactoos; Celery}; {Paalm; Pine; Ficus; Ficus}; Hyedrid}; {Ficus; {Alovelis; Ficus; Ficus; Celery}; Pine; {Pine; Ficus; Hyedrid; Celery}}}; Pine; Celery; Hyedrid; Pine};
+Alerce Vengativo: {Alovelis; {Paalm; Hyedrid; Hyedrid; Cactoos; {Celery; {Celery; Cactoos; Pine; Cactoos}; Celery}}; Alovelis; Hyedrid; Alovelis; Hyedrid};
+Baobab del Despertar: {Alovelis; {Celery; Ficus; {Alovelis; {Alovelis; Alovelis; Cactoos}; {Celery; Paalm; Hyedrid}}}; Paalm; Celery; Pine; Alovelis};
+Pino Tormenta: {Alovelis; {Cactoos; Ficus; Paalm; {Paalm; {Cactoos; Alovelis; Celery}; Celery; {Hyedrid; Paalm; Cactoos; Celery}}; Celery}; Pine; Celery; Hyedrid; Alovelis};
+Abeto Gélido: {Alovelis; {Alovelis; {Alovelis; {Ficus; Pine; Cactoos}; {Paalm; Pine; Paalm}}; {Hyedrid; {Pine; Cactoos; Celery; Ficus; Pine}; {Hyedrid; Ficus; Cactoos; Hyedrid; Alovelis}; Paalm; {Hyedrid; Celery; Alovelis; Hyedrid; Celery}}}; Hyedrid; Ficus; Celery; Celery; Hyedrid};
