@@ -1,0 +1,19 @@
+Si se quiere correr el codigo del analisis de sensibilidad lo que se tiene que hacer es lo siguiente:
+
+Para cada uno de los parametros a variar existe un archivo por separado el cual debe
+ser reemplazado por el original en el codigo del archivo main.py.
+
+Para el parametro de los colegios que parten digitaliados, se creó el archivo
+sensibilidad_colegios_digitalizados.csv el cual se reemplaza en la linea 73 por ColegiosDigitalizados.csv.
+
+Para el parametro de los costos de digitalizacion, se creó el archivo
+sensibilidad_costo_digitalizacion.csv el cual se reemplaza en la linea 61 por CostoDigitalizacion.csv.
+
+Para el parametro del presupuesto, se creó el archivo sensibilidad_presupuesto.csv
+el cual se reemplaza en la linea 67 por Presupuesto.csv.
+
+La idea de estos es reemplazarlos de uno en uno para que asi poder aislar los cambios y poder
+analizar de mejor manera los datos.
+
+Los resultados de cada una de las iteraciones hechas por nosotros están en los archivos
+.xlsx que terminan en S1, S2 y S3 respectivamente.
