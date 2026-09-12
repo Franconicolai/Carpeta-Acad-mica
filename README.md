@@ -1,6 +1,6 @@
 ﻿# Repositorio Académico
 
-Repositorio personal que recopila apuntes, material de estudio y registros de la trayectoria académica, orientado al título de **Ingeniería Civil Industrial** con **Diploma en Tecnologías de la Información**. Adicionalmente, incluye material de optativos como *Exploración Mecánica de Fluidos* y *Fundamentos de la Ingeniería Ética*.
+Repositorio personal que recopila apuntes, material de estudio y registros de la trayectoria académica, orientado al título de **Ingeniería Civil Industrial** con **Diploma en Tecnologías de la Información**. Adicionalmente, incluye material de optativos como exploratorio *Mecánica de Fluidos* y fundamentos de la ingeniería *Ética*.
 
 ---
 
@@ -15,17 +15,19 @@ Repositorio personal que recopila apuntes, material de estudio y registros de la
   * **Libros:** Textos de estudio que fui recopilando y descargando de diferentes páginas web.
   * **Apuntes:** Anotaciones y resúmenes que armé, ya sea estudiando solo o con otras personas. *Recomiendo mucho esta sección*, ya que en varios ramos busqué entender la materia a fondo, estudiar por mi cuenta y generalizar los conceptos, por lo que esta perspectiva les puede ser muy útil.
   * **Ayudantías:** Material práctico y ejercicios.
-  *(Nota: La estructura se adapta a cada ramo. Si un curso no tenía proyectos, por ejemplo, simplemente no existirá dicha carpeta).*
+    *(Nota: La estructura se adapta a cada ramo. Si un curso no tenía proyectos, por ejemplo, simplemente no existirá dicha carpeta).*
 * **Rendimiento y Seguimiento:** Incluyo mi seguimiento curricular para que vean más o menos cómo me fue, pero es fundamental entender que las notas no lo son todo y no respaldan al 100% el rendimiento o aprendizaje real. Es súper fácil juzgar una calificación desde afuera sin conocer la carga académica del momento, las situaciones personales, otros proyectos en paralelo, etc. Tómenlo como una autorreferencia de mi proceso, pero en ningún caso como un punto final.
 
 ---
 
-## 🏛️ Estructura Curricular: Ingeniería Civil Industrial
+## 🏛️ Estructura Curricular: Ingeniería Civil Industrial, mayor Investigación Operativa, Minor Tecnología de la Información, título Ingeniería Civil Industrial con Diplomado en Tecnologías de la Información
 
 #### 0 Semestre
+
 * Nivelación Precalculo
 
 #### 1er Semestre
+
 * FIL2001 Filosofía
 * ING1004 Desafíos para la Ingeniería
 * MAT1203 Álgebra Lineal
@@ -34,6 +36,7 @@ Repositorio personal que recopila apuntes, material de estudio y registros de la
 * VRA100C Examen de Comunicación Escrita (ECE)
 
 #### 2do Semestre
+
 * ACT1313 Problemas de las Artes Escénicas Hoy
 * FIS1514 Dinámica
 * ICS1513 Introducción a la Economía
@@ -41,6 +44,7 @@ Repositorio personal que recopila apuntes, material de estudio y registros de la
 * MAT1620 Cálculo II
 
 #### 3er Semestre
+
 * EUC4000 Lower Intermediate English II
 * FIS1523 Termodinámica
 * ICS113 Optimización
@@ -49,12 +53,14 @@ Repositorio personal que recopila apuntes, material de estudio y registros de la
 * VRA1323 Formación para Ayudantes
 
 #### 4to Semestre
+
 * BIO141C Biología de la Célula
 * EYP1113 Probabilidades y Estadística
 * ICH1104 Mecánica de Fluidos
 * IEE1533 Fundamentos de Teoría Electromagnética
 
 #### 5to Semestre
+
 * EAG170A Resolución Creativa de Problemas
 * EF Examen de Competencias Fundamentales
 * ICS2123 Modelos Estocásticos
@@ -64,6 +70,7 @@ Repositorio personal que recopila apuntes, material de estudio y registros de la
 * TTF115 Virgen María y Feminismo: ¿Diálogo o Confrontación?
 
 #### 6to Semestre
+
 * ETI188 Ética para Ingeniería
 * EUC6000 Upper Intermediate English II
 * ICS2121 Métodos de Optimización
@@ -71,6 +78,7 @@ Repositorio personal que recopila apuntes, material de estudio y registros de la
 * IIC2413 Bases de Datos
 
 #### 7mo Semestre
+
 * DER115E Cultura y Entretenimiento: Un Enfoque Jurídico
 * ICS2613 Contabilidad y Control de Gestión
 * ICS2813 Organización y Comportamiento en la Empresa
@@ -88,6 +96,7 @@ Estudié en paralelo materias de otras facultades. Este contenido está pensado 
 ### 📊 Ingeniería Comercial
 
 **Administración**
+
 * EAA1210 Contabilidad
 * EAA1220 Fundamentos de Finanzas
 * EAA2110 Dirección de Personas
@@ -100,6 +109,7 @@ Estudié en paralelo materias de otras facultades. Este contenido está pensado 
 * EAA2420 Estrategia Competitiva
 
 **Economía**
+
 * EAE1110 Introducción a la Microeconomía
 * EAE1210 Introducción a la Macroeconomía
 * EAE1220 Análisis Económico y Experiencia Chilena
@@ -111,9 +121,11 @@ Estudié en paralelo materias de otras facultades. Este contenido está pensado 
 * EAE2510 Econometría
 
 **Corporación del Mercado de Valores (CMV)**
+
 * Corporación del Mercado de Valores (Materiales y apuntes)
 
 **Optativos de Profundización (OPR)**
+
 * OPR Creación de Nuevas Empresas
 * OPR Dirección de Empresas y Estrategia
 * OPR Empresas Familiares
@@ -123,7 +135,9 @@ Estudié en paralelo materias de otras facultades. Este contenido está pensado 
 * OPR Tópicos en Finanzas Corporativas
 
 ### ⚖️ Derecho Corporativo
+
 Esta sección agrupa contenido fundamental para entender el cruce entre la ingeniería y el marco legal que regula a las empresas. Aquí podrán encontrar valiosos apuntes sobre:
+
 * **Derecho Económico:** Regulación, libre competencia y fundamentos legales del mercado.
 * **Derecho Privado:** Bases de contratos, obligaciones y normas que rigen las transacciones.
 * **Derecho Tributario y Financiamiento:** Estructura de impuestos, obligaciones corporativas y mecanismos de financiamiento (incluyendo también aspectos de *Derecho Laboral* y *Corporativo* esenciales en estos apuntes).
