@@ -1,30 +1,58 @@
-﻿# Repositorio Académico - Franco Nicolai
+﻿# Nube Académica - Material de Estudio
 
-Soy Franco Nicolai, y he creado esta nube académica sin fines publicitarios. Su único propósito es concentrar y compartir toda la información y material que he ocupado a lo largo de mi carrera. Mi *major* es en Investigación Operativa y mi *minor* en TI, y además tomé optativos como Exploración Mecánica de Fluidos y Fundamentos de la Ingeniería Ética. Este repositorio es un fiel respaldo de lo que fue todo mi proceso de aprendizaje.
+Este repositorio centraliza información, apuntes y material de estudio recopilados a lo largo de mi carrera de Ingeniería (Major en Investigación Operativa, Minor en TI, con optativos como Exploración Mecánica de Fluidos y Fundamentos de la Ingeniería Ética). 
 
-Quiero destacar que el material aquí presente es una "fotografía" de los momentos exactos en los que di cada ramo. Es importante tener en cuenta que los ramos, sus contenidos y los requisitos pueden ir cambiando con el tiempo. Por favor, no tomen este repositorio como una regla última o definitiva sobre cómo es la carrera hoy, sino más bien ocúpenlo como un recurso de ayuda y apoyo para su propio estudio.
+El objetivo de esta "nube" es servir como un recurso de apoyo, de libre acceso, para quienes deseen estudiar o profundizar en estos temas. Todo el contenido se comparte libremente sin intenciones de copyright; el que logre tener acceso a esto y le sirva, bendito sea.
 
-En cuanto a la organización, notarán que en casi todos los ramos hay una estructura específica donde aparece el prospecto (programa del curso), y luego carpetas para pruebas, tareas, apuntes, entre otros. Sin embargo, no en todas las carpetas de cada ramo están exactamente las mismas subcarpetas. Hay ramos que no tenían proyecto y, por ende, no tienen la carpeta de "proyectos", pero en general todas mantienen una estructura similar y fácil de navegar.
+### 🐌 Notas Importantes sobre el Contenido
 
-Además, en todos los semestres podrán encontrar mis notas, mi seguimiento curricular y documentos de mi rendimiento. Esto no busca ser un respaldo de que me fue bien o mal, ni un intento de presumir; simplemente es una muestra transparente de mi proceso. Las notas no siempre son las mejores ni son increíbles, pero muestran un proceso de constancia a lo largo del tiempo.
+* **Temporalidad:** El material es una "fotografía" del momento exacto en que se cursó cada ramo. Tengan en consideración que los contenidos, evaluaciones y requisitos pueden cambiar con el tiempo.
+* **Estructura Interna:** La mayoría de los ramos siguen una organización estándar (Prospecto, Pruebas, Tareas, Libros, etc.). Sin embargo, la estructura puede variar dependiendo de la naturaleza del curso (por ejemplo, ramos sin proyectos no tendrán esa carpeta).
+* **Rendimiento:** Se incluye seguimiento curricular, calificaciones y evaluaciones. El propósito de esto no es demostrar éxito, sino mostrar de forma transparente un proceso de constancia académica.
+* **Ramos Complementarios:** Debido a una especializacón orientada a la empresa, se incluyen carpetas completas con ramos de **Ingeniería Comercial** y **Derecho Corporativo**, los cuales sirvieron para profundizar los conocimientos técnicos de ingeniería.
 
-A continuación, detallo qué ramos van a encontrar en cada uno de los semestres de mi malla de Ingeniería:
+---
 
-**Semestre 0**
-En este semestre inicial se encuentra el material correspondiente a Nivelación Precalculo.
+### 𝐂 Estructura del Repositorio
 
-**1er Semestre**
-En este periodo encontrarán los ramos de FIL2001 Filosofía, ING1004 Desafíos para la Ingeniería, MAT1203 Álgebra Lineal, MAT1610 Cálculo I, QIM100E Química para la Ingeniería y VRA100C Examen de Comunicación Escrita (Ece).
+A continuación, se detalla el árbol de contenidos principales que encontrarán en el repositorio:
 
-**2do Semestre**
-Los cursos correspondientes a este semestre son ACT1313 Problemas de las Artes Escénicas Hoy, FIS1514 Dinámica, ICS1513 Introducción a la Economía, IIC1103 Introducción a la Programación y MAT1620 Cálculo II.
-
-**3er Semestre**
-Para este semestre el material disponible abarca EUC4000 Lower Intermediate English II, FIS1523 Termodinámica, ICS113 Optimización, MAT1630 Cálculo III, MAT1640 Ecuaciones Diferenciales y VRA1323 Formación para Ayudantes.
-
-**4to Semestre**
-En este semestre encontrarán BIO141C Biología de la Célula, EYP1113 Probabilidades y Estadística, ICH1104 Mecánica de Fluidos e IEE1533 Fundamentos de Teoría Electromagnética.
-
-Adicionalmente, verán que hay contenido de Ingeniería Comercial y Derecho Corporativo. Como me especialicé mucho en la parte de empresa, en paralelo a lo que estudiaba en mi carrera también fui cursando estos ramos que están organizados en sus propias carpetas. Muchas veces, ramos de ingeniería los profundizaba con apuntes y conceptos de estas dos disciplinas. Lo coloco como un recurso adicional porque al final es contenido súper valioso; si alguien lo necesita para estudiar o complementar su carrera, le puede servir muchísimo.
-
-Finalmente, quiero ser muy claro en que no estoy difundiendo esto con *copyright* ni buscando exclusividad. Son simplemente mis contenidos, los que se me dieron y fui recolectando. Los guardé acá y el que logre tener acceso a esto, bendito sea; espero de verdad que les sea de gran utilidad.
+```text
+📡 Repositorio
+ ↣ 📄 Ingeniería Civil en la Pontificia Universidad Católica de Chile
+ ┃ ↣ 📄 0 Semestre
+ ┃ ↣ ┛ 📜 Nivelación precalculo
+ ┃ ↣ 📄 1er Semestre
+ ┃ ┃ ↣ 📜 FIL2001 Filosofía
+ ┃ ┃ ↣ 📜 ING1004 Desafíos para la Ingeniería
+ ┃ ┃ ↣ 📜 MAT1203 Álgebra lineal
+ ┃ ┃ ↣ 📜 MAT1610 Calculo I
+ ┃ ┃ ↣ 📜 QIM100E Química para la Ingeniería
+ ┃ ┃ ┛ 📜 VRA100C Examen de Comunicación Escrita (Ece)
+ ┃ ↣ 📄 2do Semestre
+ ┃ ┃ ↣ 📜 ACT1313 Problemas de las artes escénicas hoy
+ ┃ ┃ ↣ 📜 FIS1514 Dinámica
+ ┃ ┃ ↣ 📜 ICS1513 Introducción a la Economía
+ ┃ ┃ ↣ 📜 IIC1103 Introducción a la programación
+ ┃ ┃ ┛ 📜 MAT1620 Calculo II
+ ┃ ↣ 📄 3er Semestre
+ ┃ ┃ ↣ 📜 EUC4000 Lower Intermediate English II
+ ┃ ┃ ↣ 📜 FIS1523 Termodinámica
+ ┃ ┃ ↣ 📜 ICS113 Optimización
+ ┃ ┃ ↣ 📜 MAT1630 Calculo III
+ ┃ ┃ ↣ 📜 MAT1640 Ecuaciones Diferenciales
+ ┃ ┃ ┛ 📜 VRA1323 Formación para ayudantes
+ ┃ ┛ 📄 4to Semestre
+ ┃   .↣ 📜 BIO141C Biología de la Célula
+ ┃   ↣��� EYP1113 Probabilidades y Estadística
+ ┃   ↣��� ICH1104 Mecánica de Fluidos
+ ┃   ┛��� IEE1533 Fundamentos de Teoría Electromagnética
+ ┃
+ ↣��� Ingeniería Comercial en la Pontificia Universidad Católica de Chile
+ ┃ ↣ 📜 Administración
+ ┃ ↣ 📜 Corporación del Mercado de Valores (CMV)
+ ┃ ↣ 📜 Economía
+ ┃ ┛ 📜OPR Optativos de Profundización
+ ┃
+ ┛��� Derecho Corporativo en la Pontificia Universidad Católica de Chile
+```
